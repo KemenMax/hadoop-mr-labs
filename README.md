@@ -80,6 +80,9 @@ HadoopMR/
 - `Reducer` 接收相同单词对应的一组计数值并求和，输出最终词频结果
 - `main` 方法中完成 `Job` 配置，设置 `Mapper`、`Combiner`、`Reducer`，指定输入输出路径后提交任务执行
 
+### writable
+
+
 ## 运行说明
 
 本项目默认连接的 HDFS 地址是 `hdfs://hadoop01:9000`，运行相关代码前需要确保：
